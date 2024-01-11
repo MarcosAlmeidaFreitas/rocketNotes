@@ -1,5 +1,6 @@
 import { Container } from './styles'
 
+import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 
 export function Details(){
@@ -8,11 +9,7 @@ export function Details(){
     //O fragment não sofre nenhum tipo de estilização ao contrario da div pode ser importado através do {fragment} from react.
     //nesse caso ele está usando as configs do container que vem do styles
     <Container> 
-      <h1>Hello World</h1>
-      <span>Testando o react</span>
-
-      <Button title="Entrar" loading/>
-      <Button title="Cadastrar"/>
+      <Header></Header>
       <Button title="Voltar"/>
     </Container>
   );
