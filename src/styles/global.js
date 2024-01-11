@@ -11,11 +11,18 @@ export default createGlobalStyle`
   body{
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
     color: ${({ theme }) => theme.COLORS.WHITE};
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body, input, textarea, button{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem; 
+    outline: none;
   }
 
-  /* :root{
+  :root{
     font-size: 62.5%;
-  } */
+  }
 
   a{
     text-decoration: none;
