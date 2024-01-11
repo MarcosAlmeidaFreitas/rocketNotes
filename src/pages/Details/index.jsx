@@ -1,4 +1,7 @@
 import { Container } from './styles'
+
+import { Button } from '../../components/Button'
+
 export function Details(){
   return(
     //para retornar mais de um elemento é necessário usar uma div ou fragment
@@ -7,6 +10,10 @@ export function Details(){
     <Container> 
       <h1>Hello World</h1>
       <span>Testando o react</span>
+
+      <Button title="Entrar" loading/>
+      <Button title="Cadastrar"/>
+      <Button title="Voltar"/>
     </Container>
   );
 }
