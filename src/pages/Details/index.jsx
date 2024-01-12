@@ -1,4 +1,4 @@
-import { Container } from './styles'
+import { Container, Links } from './styles'
 
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
@@ -14,12 +14,12 @@ export function Details(){
 
 
       <Section title="Links Úteis">
-                {/* Faltando 2.50 para acabar o video  */}
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-        </ul>
+        <Links>
+          <li>
+            <a href="#">https://www.rocketseat.com</a>
+            <a href="#">https://www.rocketseat.com</a>
+          </li>
+        </Links>
       </Section>
       <Button title="Voltar"/>
     </Container>
