@@ -16,9 +16,9 @@ export function Home(){
       
       <Menu>
         
-        <li><ButtonText title="Todos" isActive="true"/></li>
-        <li><ButtonText title="React" isActive="false"/></li>
-        <li><ButtonText title="NodeJS"/></li>
+        <li><ButtonText title="Todos" $isactive= {true}/></li>
+        <li><ButtonText title="React"$isactive= {false}/></li>
+        <li><ButtonText title="NodeJS" $isactive= {false}/></li>
 
       </Menu>
 

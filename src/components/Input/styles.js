@@ -16,6 +16,7 @@ export const Container = styled.div`
     width: 100%;
 
     padding: 12px;
+    padding-left: 20px;
     color: ${({theme}) => theme.COLORS.WHITE};
     background: transparent;
 
@@ -24,10 +25,10 @@ export const Container = styled.div`
     &:placeholder{
       color: ${({theme})=> theme.COLORS.GRAY_300};
     }
-
-    >svg{
-      margin-left: 16px;
-    }
   }
-
+  
+  >svg {
+    margin-left: 12px;
+  }
+  
 `
