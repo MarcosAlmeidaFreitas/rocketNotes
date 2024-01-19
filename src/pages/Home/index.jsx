@@ -30,7 +30,7 @@ export function Home(){
 
       </Content>
 
-      <NewNote>
+      <NewNote to="/new">
         <FiPlus></FiPlus>
         Criar Nota
       </NewNote>

@@ -25,16 +25,17 @@ export const Form = styled.form`
 
   >h2{
     font-size: 24px;
-    margin: 48px 0;
+    margin: 32px 0;
   }
 
   >p{
     font-size: 14px;
+    margin-top: 12px;
     color: ${({theme}) => theme.COLORS.GRAY_100};
   }
 
   >a{
-    margin-top: 80px;
+    margin-top: 40px;
     color: ${({theme}) => theme.COLORS.ORANGE};
   } 
 `;
