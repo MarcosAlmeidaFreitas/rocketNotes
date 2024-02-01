@@ -8,7 +8,7 @@ export const Container = styled.textarea`
   color: ${({ theme }) => theme.COLORS.WHITE};
   padding: 16px;
   border: none;
-  /* Propiedade para que o usuário não consiga aumentar o tamanho do text-area */
+  /* Propriedade para que o usuário não consiga aumentar o tamanho do text-area */
   resize: none;
   margin-bottom: 8px;
   border-radius: 10px;
